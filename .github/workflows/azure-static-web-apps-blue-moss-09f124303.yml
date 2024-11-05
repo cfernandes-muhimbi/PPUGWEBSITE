@@ -61,5 +61,3 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
-
-From <https://github.com/cfernandes-muhimbi/PPUGWEBSITE/actions/runs/11693055194/workflow>
