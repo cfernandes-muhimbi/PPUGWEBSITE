@@ -16,17 +16,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          node-version: '20.x'
+          node-version: '23.1.0'
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: '23.1.0'
 
       - name: Run GitHub Script
         uses: actions/github-script@v6
         with:
-          node-version: '20.x'
+          node-version: '223.1.0'
           script: |
             const coredemo = require('@actions/core')
             await coredemo.getIDToken()
