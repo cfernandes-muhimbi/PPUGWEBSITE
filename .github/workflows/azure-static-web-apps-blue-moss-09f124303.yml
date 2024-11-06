@@ -25,10 +25,9 @@ jobs:
       - name: Deploy to Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: 33d1301a8a9f0253d0966ef2af0ef8504f44624c72f9ac098f6c52a93a5a244f05-c74e0070-2105-46b0-8c1e-d633c7a390ce003022809f124303  # Use the secret you added
+          azure_static_web_apps_api_token: f26bd7faa362b19fe61dd8d27da7ae4ee1f6b1f8d9e7a1c8576fe6e50db765cf05-0f6d5951-4ece-4051-8f9d-eb2d5186eedf003022809f124303
           action: "upload"
           app_location: "/"  # Root directory with index.html
-          api_location: ""   # No API location needed
           output_location: ""  # No output directory
           app_build_command: ""  # Skip build command for static HTML
 
