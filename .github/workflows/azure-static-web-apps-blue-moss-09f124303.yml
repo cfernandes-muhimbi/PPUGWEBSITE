@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Deploy static HTML without any build
+      # Deploy static HTML without Node.js setup or build steps
       - name: Deploy to Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
