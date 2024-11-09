@@ -28,8 +28,6 @@ jobs:
           azure_static_web_apps_api_token: f26bd7faa362b19fe61dd8d27da7ae4ee1f6b1f8d9e7a1c8576fe6e50db765cf05-0f6d5951-4ece-4051-8f9d-eb2d5186eedf003022809f124303
           action: "upload"
           app_location: "/"  # Root directory with index.html
-          output_location: ""  # No output directory
-          app_build_command: ""  # Skip build command for static HTML
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
