@@ -32,7 +32,7 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           app_location: "/" # Path to index.html
           api_location: "" # Api source code path - optional
-          output_location: "./" # Deploys only the contents in root (index.html)
+          output_location: "/" # Deploys only the contents in root (index.html)
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
