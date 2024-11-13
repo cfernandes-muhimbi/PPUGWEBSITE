@@ -22,14 +22,12 @@ jobs:
         with:
           submodules: true
           lfs: false
-          
+
       - name: Get Id Token
         uses: actions/github-script@v6
         id: idtoken
         with:
-           script: |
-               const core = require('@actions/core')
-               return await core.getIDToken()
+           script: return await github.auth.getIDToken()
            result-encoding: string
 
       - name: Build And Deploy
